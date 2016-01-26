@@ -15,8 +15,8 @@
 
 body {
 	font-family: openSans;
-	color: #A9A9A9;
-	background-color: #141414;
+	color: #2A2A2A;
+	background-color: #F3F3F3;
 }
 
 .navbar {
@@ -31,27 +31,7 @@ body {
 
 .dropdown-menu{
 	background-color: rgba(0,0,0,0.7);
-	
-	/*
-	-webkit-transition: all 0.22s;
-    -moz-transition: all 0.22s;
-    -ms-transition: all 0.22s;
-    -o-transition: all 0.22s;
-    transition: all 0.22s;
-
-    max-height: 0;
-    display: block;
-    overflow: hidden;
-    opacity: 0;
-    */
 }
-
-/*
-.dropdown.open .dropdown-menu {
-    max-height: 400px;
-    opacity: 1;
-}
-*/
 
 .dropdown-menu > li > a {
 	color: #A9A9A9;
@@ -124,4 +104,91 @@ body {
     border-right:1px solid transparent;
     border-bottom:1px solid transparent;
     cursor:pointer;
+}
+
+.footer-top {
+    background-color: #997BAE;
+}
+
+.footer-body {
+    background-color: #2B2B2B;
+    color: #868686;
+}
+
+.avatar {
+    max-height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+.avatar:hover {
+    -ms-transform: scale(1.1,1.1); 
+    -webkit-transform: scale(1.1,1.1); 
+    transform: scale(1.1,1.1);
+}
+
+h4.avatar-text {
+    text-align: center;
+    color: #BABABA;
+    font-family: openSans;
+    font-size: 21px;
+}
+
+p.avatar-text {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: openSansLight;
+}
+
+a {
+    font-family: openSans;
+    color: #868686;
+    font-size: 14px;
+    text-decoration: none !important;
+}
+
+a:link {
+    
+}
+
+a:visited {
+
+}
+
+a:hover {
+    color: #997BAE;
+}
+
+a:active {
+    color: #997BAE;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid;
+    border-color: #484848;
+}
+
+.small {
+    font-family: openSansLight;
+    color: #6E6E6E;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+h4.link {
+    text-align: center;
+    font-family: openSans;
+    color: #A2A2A2;
 }
