@@ -81,24 +81,23 @@ body {
 	background-size: contain;
 }
 
-.client {
+.card {
     text-align:center;
     float:left;
-    letter-spacing:1px;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
     cursor:pointer;
 }
 
-.client:hover {
-    -ms-transform: scale(1.04,1.04); /* IE 9 */
-    -webkit-transform: scale(1.04,1.04); /* Safari */
-    transform: scale(1.04,1.04);
+.card:hover {
+    -ms-transform: scale(1.03,1.03); /* IE 9 */
+    -webkit-transform: scale(1.03,1.03); /* Safari */
+    transform: scale(1.03,1.03);
 
-    -webkit-box-shadow: 0px 0px 5px 2px rgba(153,123,174,1);
-	-moz-box-shadow: 0px 0px 5px 2px rgba(153,123,174,1);
-	box-shadow: 0px 0px 5px 2px rgba(153,123,174,1);
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(153,123,174,1);
+	-moz-box-shadow: 0px 0px 4px 2px rgba(153,123,174,1);
+	box-shadow: 0px 0px 4px 2px rgba(153,123,174,1);
     
     z-index:9999;
     border-right:1px solid transparent;
@@ -124,6 +123,10 @@ body {
     -webkit-transition: all 0.7s;
     -moz-transition: all 0.7s;
     transition: all 0.7s;
+    /*
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    */
 }
 
 .avatar:hover {
@@ -177,7 +180,7 @@ hr {
 
 .small {
     font-family: openSansLight;
-    color: #6E6E6E;
+    color: #626262;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -191,4 +194,16 @@ h4.link {
     text-align: center;
     font-family: openSans;
     color: #A2A2A2;
+    font-size: 16px;
+}
+
+.img-card {
+    max-height: 100px;
+    fill: #7A5E5E;
+}
+
+.title {
+    text-align: center;
+    font-family: openSans;
+    color: #F3F3F3;
 }
